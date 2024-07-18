@@ -68,4 +68,4 @@ jobs:
     - name: Deploy helm chart
       uses: WyriHaximus/github-action-helm3@v3
       with:
-        exec: helm upgrade --install ./cicd_helm_eks/helm-chart/docker-cicd/
+        exec: helm upgrade --install image-release ./cicd_helm_eks/helm-chart/docker-cicd/
