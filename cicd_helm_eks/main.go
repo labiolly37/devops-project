@@ -145,6 +145,6 @@ func main() {
 	http.HandleFunc("/save/", makeHandler(saveHandler))
 	http.HandleFunc("/", listHandler)
 	http.HandleFunc("/add", addHandler)
-	log.Println("The application is running on port 8080...")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Println("The application is running on port 80...")
+	log.Fatal(http.ListenAndServe(":80", nil))
 }
