@@ -77,6 +77,8 @@ Step 11: Confirm by getting pods or nodes;
 You'll notice that the newly built image (note the release name supplied in the build.yaml file) has been deployed to the EKS Cluster. 
 ![Screenshot 2024-07-18 195053](https://github.com/user-attachments/assets/90c63474-d2bd-48ca-96f5-85297f15b1d6)
 
+Then this...
+
 ![Screenshot 2024-07-18 195149](https://github.com/user-attachments/assets/98edffda-4529-4b60-83b3-02fea2ed1c41)
 
 
